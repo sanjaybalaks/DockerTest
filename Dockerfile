@@ -1,6 +1,6 @@
 # DOCKER-VERSION 0.10.0
 
-FROM ubuntu:13.10
+FROM ubuntu:14.10
 
 # make sure apt is up to date
 RUN apt-get update

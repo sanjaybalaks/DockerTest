@@ -1,5 +1,5 @@
 {
-  "name": "my-cool-webserver",
+  "name": "mynodeserver",
   "version": "0.0.1",
   "description": "A NodeJS webserver to run inside a docker container",
   "main": "index.js",
