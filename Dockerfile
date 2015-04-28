@@ -8,8 +8,8 @@ RUN apt-get update
 # install nodejs and npm
 RUN apt-get install -y nodejs npm git git-core
 
-RUN npm install
+ADD start.sh /tmp/
 
-EXPOSE 3000
+RUN chmod +x /tmp/start.sh
 
-ENTRYPOINT [ "nodejs", "index.js" ]
+CMD /tmp/start.sh

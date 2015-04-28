@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "sean@seanmcgary.com",
   "license": "MIT",
+  "private": true,
   "dependencies": {
       "express": "*"
   }

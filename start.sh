@@ -9,4 +9,4 @@ cd DockerTest
 
 npm install
 
-node .
+node index.js
